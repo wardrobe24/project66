@@ -1,19 +1,13 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-    <script src= "script.js">
-    
-
-    </script>
+    <script src= "script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<!DOCTYPE html>
-<!-- Created By CodingNepal -->
 <html lang="en" dir="ltr">
    <head>
       <meta charset="utf-8">
-      <title>Login and Registration Form in HTML | CodingNepal</title>
+      <title>Login and Registration Form</title>
       <link rel="stylesheet" href="style.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
@@ -38,17 +32,17 @@
             <div class="form-inner">
                <form action="#" class="login">
                   <div class="field">
-                     <input type="text" placeholder="Email Address" required>
+                     <input type="text" id="email" placeholder="Email Address" >
                   </div>
                   <div class="field">
-                     <input type="password" placeholder="Password" required>
+                     <input type="password" id="psw" placeholder="Password"  >
                   </div>
                   <div class="pass-link">
                      <a href="#">Forgot password?</a>
                   </div>
                   <div class="field btn">
                      <div class="btn-layer"></div>
-                     <input type="submit" value="Login">
+                     <input type="submit" value="Login" onclick="loginfunc()">
                   </div>
                   <div class="signup-link">
                      Not a member? <a href="">Signup now</a>
@@ -56,18 +50,19 @@
                </form>
                <form action="#" class="signup">
                   <div class="field">
-                     <input type="text" placeholder="Email Address" required>
+                     <input type="text" id="mail" placeholder="Email Address" >
                   </div>
                   <div class="field">
-                     <input type="password" placeholder="Password" required>
+                     <input type="password" id="pw"  placeholder="Password">
                   </div>
                   <div class="field">
-                     <input type="password" placeholder="Confirm password" required>
+                     <input type="password" id="cpw" placeholder="Confirm password">
                   </div>
                   <div class="field btn">
                      <div class="btn-layer"></div>
-                     <input type="submit" value="Signup">
+                     <input type="submit" value="Signup" onclick="signupfunc()">
                   </div>
+                  
                </form>
             </div>
          </div>
@@ -94,4 +89,5 @@
    </body>
 </html>
 
-</html>
+
+
