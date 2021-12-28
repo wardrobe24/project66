@@ -316,8 +316,8 @@ nav ul li a{
 @media only screen and (max-width: 600px){
     
     .row{
-      text-align: center;
-    }
+        text-align: center;
+      }
     
     .col-1, .col-2, .col-3, .col-4{
         
@@ -357,7 +357,7 @@ select:focus{
 }
 .page-btn span:hover{
     background: #ff523b;
-    color: #fff;
+    color: white;
 }
 
 
@@ -575,6 +575,94 @@ form a{
     left: 0;
 }
 
+/*Filter buttons*/
+/* Wildcard styling */
+* {
+    box-sizing: border-box;
+}
+      
+/* Padding for whole body */
+body {
+    padding: 15px;
+}
+      
+
+      
+/* Styling h2 tag */
+h1 {
+    Color: black;
+    word-break: break-all;
+}
+      
+/* Anchor tag decoration */
+a {
+    text-decoration: none;
+    color: black;
+}
+      
+a:hover {
+    
+    color: #ff523b;
+}
+      
+.row {
+    margin: 0px -14px;
+    padding: 8px;
+}
+      
+      
+/* Content decoration */
+.content {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gray;
+}
+      
+/* Paragraph decoration */
+p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+      
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+      
+.content {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gray;
+}
+      
+.show {
+    display: block;
+}
+      
+/* Style the filter buttons */
+.bttn {
+    border: none;
+    padding: 8px 14px;
+    background-color: gray;
+    
+}
+      
+.bttn:hover {
+    background-color: #ff523b;
+    color: white;
+    opacity: 0.8;
+}
+      
+.bttn.active {
+    background-color: #ff523b;
+    color: white;
+    
+}
+  
+/* Window size 850 width set */
 
 
 
