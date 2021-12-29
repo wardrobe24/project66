@@ -18,8 +18,8 @@
                <ul id="MenuItems">
                    <li><a href="index.html">Home</a></li>
                    <li><a href="products.html">Products</a></li>
-                   <li><a href="">Men</a></li>
-                   <li><a href="">Women</a></li>
+                   <li><a href="men.html">Men</a></li>
+                   <li><a href="women.html">Women</a></li>
                    <li><a href="account.html">Account</a></li>
                </ul>
               </nav>
@@ -43,60 +43,75 @@
        <tr>
            <td>
                <div class="cart-info">
-                   <img src="images/buy-1.jpg">
+                   <a href="bs.html"><img src="images/bs1.png"></a>
                    <div>
-                       <p>Red Printed T-Shirt</p>
-                       <small>Price: $50.00</small><br>
-                       <a href="">Remove</a>
+                       <p>Men Turquoise Blue Relaxed Fit Sweatshirt</p>
+                       <small>Price: ₹799.00</small><br>
+                       <a href="men.html">Remove</a>
                    </div>
                </div>
            </td>
-           <td><input type="number" value="1"></td>
-           <td>$50.00</td>
+           <td><input type="number" value="1" min="1" max="10" id="num" oninput="increaseprice(this.value)"></td>
+           <td>₹799.00</td>
+           <div id="price"></div>
        </tr>
        <tr>
            <td>
                <div class="cart-info">
-                   <img src="images/buy-2.jpg">
+                   <a href="fdress.html"><img src="images/fdress3.png"></a>
                    <div>
-                       <p>HRX Sports Shoes</p>
-                       <small>Price: $75.00</small><br>
-                       <a href="">Remove</a>
+                       <p>Pink Floral Dress</p>
+                       <small>Price: ₹1699.00</small><br>
+                       <a href="women.html">Remove</a>
                    </div>
                </div>
            </td>
-           <td><input type="number" value="1"></td>
-           <td>$75.00</td>
+           <td><input type="number" value="1" min="1" max="10" ></td>
+           <td>₹1699.00</td>
        </tr>
        <tr>
            <td>
                <div class="cart-info">
-                   <img src="images/buy-3.jpg">
+                   <a href="sandal.html"><img src="images/sandal1.png"></a>
                    <div>
-                       <p>HRX Gray Trackpants</p>
-                       <small>Price: $75.00</small><br>
-                       <a href="">Remove</a>
+                       <p>Summer Sandals</p>
+                       <small>Price: ₹999.00</small><br>
+                       <a href="women2.html">Remove</a>
                    </div>
                </div>
            </td>
-           <td><input type="number" value="1"></td>
-           <td>$75.00</td>
+           <td><input type="number" value="1" min="1" max="10" ></td>
+           <td>₹999.00</td>
        </tr>
+       <tr>
+        <td>
+            <div class="cart-info">
+                <a href="wtch.html"><img src="images/wtch1.png"></a>
+                <div>
+                    <p>Coffee Brown Analogue Watch</p>
+                    <small>Price: ₹2040.00</small><br>
+                    <a href="men.html">Remove</a>
+                </div>
+            </div>
+        </td>
+        <td><input type="number" value="1" min="1" max="10"></td>
+        <td>₹2040.00</td>
+    </tr>
    </table>
     
     <div class="total-price">
         <table>
             <tr>
                 <td>Subtotal</td>
-                <td>$200.00</td>
+                <td>₹5537.00</td>
             </tr>
             <tr>
                 <td>Tax</td>
-                <td>$35.00</td>
+                <td>₹300.00</td>
             </tr>
             <tr>
                 <td>Total</td>
-                <td>$235.00</td>
+                <td>₹5837.00</td>
             </tr>
             
         </table>

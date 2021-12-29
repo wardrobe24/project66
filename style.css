@@ -646,12 +646,12 @@ p {
 .bttn {
     border: none;
     padding: 8px 14px;
-    background-color: gray;
+    background-color: rgb(158, 157, 157);
     
 }
       
 .bttn:hover {
-    background-color: #ff523b;
+    background: #ff523b;
     color: white;
     opacity: 0.8;
 }

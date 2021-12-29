@@ -59,3 +59,9 @@
    alert("You are signed in!");
    }
   
+   //cart
+   function increaseprice(val)
+   {
+     if(val!=1)
+   document.getElementById("price").innerHTML="₹"+(val*799);
+   }
