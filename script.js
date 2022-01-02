@@ -18,10 +18,11 @@
     }
     else return true;
   }
-  function signupfunc() {
+  function signupfunc(mail) {
   
     var validpw = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*s).{8,15}$/;
-    var validmail = /^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-.]+(?:\.[a-zA-Z0-9-]+)$/;
+    
+    var validmail = /^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-.]+(?:\.[a-zA-Z0-9-]+)*$/;
     var validname = /^[a-zA-Z0-9]+$/;
     if(document.getElementById("uname").value.length==0)
     {
@@ -37,6 +38,7 @@
       
      }
     else if (!(document.getElementById("mail").value.match(validmail))) {
+  
   
       alert("Invalid email address!");
   
@@ -57,6 +59,7 @@
   
    else 
    alert("You are signed in!");
+   
    }
   
    //cart
